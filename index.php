@@ -1,0 +1,457 @@
+<!--
+Author: Mittal Shingala
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mittal Shingala</title>
+<!--Favicon-->
+<link rel="shortcut icon" href="images/fav.ico" />
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- <meta name="keywords" content="My Resume Responsive web template, Swati Garg, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" /> -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->
+</head>
+<body>
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-4 header-left">
+					<img src="images/img1.png" alt=""/>
+				</div>
+				<div class="col-md-8 header-right">
+					<h2>Hello</h2>
+					<h1>I'm Mittal Shingala</h1>
+					<h6>Software Developer, Learner...</h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><i class="fa fa-github" aria-hidden="true" style="color: #fff;font-size: 30px;"></i>
+								</li>
+								<li><a href="https://github.com/shingalamittal"> github.com/shingalamittal</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #fff;font-size: 30px;"></i></li>
+								<li><a href="https://www.linkedin.com/in/mittal-shingala-901652167/"> linkedin.com/in/mittal-shingala</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><i class="fa fa-envelope" aria-hidden="true"  style="color: #fff;font-size: 30px;"></i></li>
+								<li><a href="mailto:mittalshingala48@gmail.com">mittalshingala48@gmail.com</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">About</a></li>
+						<li><a href="#work" class="scroll">Experience</a></li>
+						<!-- <li><a href="#projects" class="scroll">My Projects</a></li>
+						<li><a href="#achievements" class="scroll">Achievements</a></li> -->
+						<li><a href="#education" class="scroll">Education</a></li>
+						<li><a  href="https://drive.google.com/open?id=1Jd1tROj8EjYwrcaadB-aJyoRUWdp4Wrv" download="">Resume</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--//top-nav-->
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> About Me</h3>
+			<div style="text-align:center">
+				<p><b>Hi!</b> I am a PHP Developer.
+				   I have Good Knowledge of PHP, MySQL, HTML, Javascript, Jquery, Bootstrap, CSS and Basic Knowledge of Laravel Framework. I am Quick Learner and Good Listener. I like to learn New things. I did my graduation in Information Technology (I.T.) from Government Engineering College, Modasa.</p>
+
+				<!-- <p><span class="about-me-quote">"My software never has bugs. It just develops random features."</span></p> -->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//about-->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<h3 class="title">Work Experience</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left work-left2"> 
+					<h4>July 2019 - Jan 2020</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<!-- <h5> Jr. PHP Developer at Siddhisai Web Solution<span class="glyphicon glyphicon-briefcase"> </span> </h5> -->
+					<h5><span class="glyphicon glyphicon-briefcase"> </span>
+					 Jr. PHP Developer at Siddhisai Web Solution
+					</h5>
+					<p>I had worked on many live projects using core PHP. Proficient in working as an application developer involving software development, integration, unit testing, debugging and API integrations. Good exposure on Ajax and SQL related activities.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left work-left2"> 
+					<h4>Jul 2018 - Jun 2019  </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span>Jr. PHP Developer at Cloudzon Infoconnect Pvt Ltd</h5>
+					<p>I had worked as Jr. PHP Developer at Cloudzon Info connect Pvt ltd. I had worked on SMS API Integration, Mail Integration, Blog Creation, Handling Cloudzon live website, Chat Server Integration for Support system and many more. </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				
+		</div>
+	</div>
+	<!--//work-experience-->
+	<!--skills-->
+	<!-- <div id="skills" class="skills">
+		<div class="container">
+			<h3 class="title">Skills</h3>
+			<div class="skills-info">
+				<div class="col-md-6 bar-grids">
+					<h6>WEB DESIGN  <span> 80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>UI DESIGN & DEVELOPER <span> 70% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 70%">
+						</div>
+					</div>
+					<h6>HTML/CSS<span>90% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 90%">
+						</div>
+					</div>
+					<h6>PHOTOSHOP <span> 75% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 75%">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 bar-grids">
+					<h6>PROJECT MANAGEMENT <span> 85% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 85%">
+						</div>
+					</div>
+					<h6>SOCIAL MEDIA MARKETING<span> 95% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+						</div>
+					</div>
+					<h6>UX DEVELOPER<span>80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>PHP DESIGN<span> 60% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 60%">
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>-->
+	<!--portfolio-->
+	<!-- <div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">My Projects</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated hidden" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>All</span></li>				
+					</ul>	
+					<div class="clearfix"> </div>	
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://play.google.com/store/apps/details?id=nsit.app.com.nsitapp">
+											<img src="images/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span> NSIT Connect</span></h3>
+												<p>The official NSITonline app - 'NSIT Connect' that aims to act as a companion app for NSIT students</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/Swati4star/Travel-Mate">
+											<img src="images/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span> Travel Mate</span></h3>
+												<p>A must-have app for all the people who want to travel to new a city, providing them with everything from choosing the correct destination to making all the bookings &to easily organizing the trip.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://play.google.com/store/apps/details?id=swati4star.createpdf">
+											<img src="images/g3.png" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span> PDF Converter</span></h3>
+												<p>An android app to easily convert images to PDF file.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://play.google.com/store/apps/details?id=com.collegegapp">
+											<img src="images/g4.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span> CollegeGapp</span></h3>
+												<p>A platform for every college level event organizer to showcase his event and get a reach for his event. It helps in connecting all the colleges, city-wide so that every college student could easily know about the events happening in other colleges.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/Swati4star/Mobile-store-estimotifier">
+											<img src="images/g5.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span> Estimotifier</span></h3>
+												<p> One Estimote beacon in each Airtel store and with that users can get numerous facilities. </p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/prabhakar267/vertikin">
+											<img src="images/g6.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span> Vertikin</span></h3>
+												<p> Platform to automatically detect what user might be interested in buying in near future. </p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<!--ResponsiveTabs-->
+		<!-- 	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script> -->
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<!-- <script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script> --> 
+			<!-- //swipe box js -->
+		<!-- </div>
+	</div> -->
+	<!--//portfolio-->
+	<!--work-experience-->
+	<!-- <div id="achievements" class="work">
+		<div class="container">
+			<h3 class="title">Technical Achievements</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>March 2016</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"></span> 2016 IndiaHacks: Top 10 in Travel & Transport</h5>
+					<p> Developed an Android app to simplify the travel for any person to a new city. He could do anything and everything he would have to do during his transit from our app itself Hackathon was held at Vivanta by Taj, Bangalore, organized by Sabre, Hackerearth, Altimetric and Skyscanner.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>March 2016</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> 2016 IndiaHacks: Top 50 in IoT <span class="glyphicon glyphicon-briefcase"> </span></h5>
+					<p> Developed an Android app which uses Estimote beacons. Using beacons, user's location is detected and is provided numerous faciities in a store. It is used to keep a track of user activities inside the store.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>October 2015</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> WalmartLabs Hack Fest 2015: Top 56</h5>
+					<p> Developed a platform, named it Travel Guide, to simplify travel of any person to a new city. He could simply get anything and everything related to his travel through this android based mobile application.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>October 2015</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> TiE Delhi-NCR Hackathon: Top 20 <span class="glyphicon glyphicon-briefcase"> </span></h5>
+					<p>Developed an Android app to simplify the travel for any person to a new city. He could do anything and everything he would have to do during his transit from our app itself. Hackathon was organized by TiE, Makemytrip, Super, Snapdeal and HackerEarth.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>September 2015</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> Code For India 2015: Swastha Bharat Award</h5>
+					<p> Developed a volunteer-facing app, that lists a good selection (a few 100 projects) for the users.Based on their profile and preferences as well as past experiences, recommendation system is made which suggests what project would be the most appropriate project for the volunteer to go to next. This way interested volunteers can select the most appropriate project from the portfolio of projects in India & connect with the right teams.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>August 2015</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> HackIIITD Hackathon: 1st Runners up <span class="glyphicon glyphicon-briefcase"> </span></h5>
+					<p>IIIT-D organized HackIIITD in association with Github & Delhi Tourism Ministry. Designed a platform to provide information about all the events happening in Delhi using Google Places API. The platform also recognized the interests of the user to recommend a custom list of top-10 events to attend.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>April 2015</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> Android Hackathon 2015: 5th Position</h5>
+					<p>Sponsored by Google Developers Group, Coding Blocks. Overnight Android Hackathon organized by IEEE-NSIT. Automated the Central Library in NSIT. Students could simply issue and return books from the app itself. They can also browse books and know about the late fine they need to pay to library. </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			
+		</div>
+	</div> -->
+	<!--//work-experience-->
+	<!--education-->
+	<div id="education" class="education">
+		<div class="container">
+			<h3 class="title">Education</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Bachelore of Engineering In IT - May 2018</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> Government Engineering College, Modasa</h5>
+					<p>I have completed my Bachelore of Engineering in 2018 with 7.94 CGPA</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Diploma In IT - June 2015</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"></span>Government Polytechnic College, Gandhinagar </h5>
+					<p>I have completed my Diploma Engineering in 2015 with 8.60 CGPA</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>SSC In 2012</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> Shreeji Vidhyalay School, Ahmedabad </h5>
+					<p>I have completed my SSC in 2012 with 74.00% </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<a href="./app-ads.txt"><p></span>@2020 by Mittal Shingala</p></a>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
